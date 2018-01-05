@@ -17,6 +17,15 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Build output
+bin/
+obj/
+.vs/
+
+# Secrets
+client_application.secret
+client_application.public
+
 # =========================
 # Operating System Files
 # =========================
