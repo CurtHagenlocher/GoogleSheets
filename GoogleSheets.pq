@@ -1,4 +1,4 @@
-section Box;
+section GoogleSheets;
 
 client_application = Expression.Evaluate(Text.FromBinary(Extension.Contents("client_application")));
 
