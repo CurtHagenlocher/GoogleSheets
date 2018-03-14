@@ -44,8 +44,7 @@ Refresh = (resourceUrl, refresh_token) =>
                 grant_type = "refresh_token",
                 client_id = client_application[ClientId],
                 client_secret = client_application[ClientSecret],
-                refresh_token = refresh_token,
-                redirect_uri = client_application[CallbackUrl]
+                refresh_token = refresh_token
                 ])),
             Headers = [
                 #"Content-type" = "application/x-www-form-urlencoded",
